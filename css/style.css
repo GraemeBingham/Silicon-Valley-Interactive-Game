@@ -60,6 +60,13 @@ body {
   background-size: cover;
 }
 
+.logo {
+  position: relative;
+  width: 400px;
+  left: 400px;
+  top: 30px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -67,5 +74,5 @@ body {
   width: 1200px;
   height: 675px;
   background-color: black;
-  opacity: .8;
+  opacity: .85;
 }
