@@ -6,6 +6,29 @@ body {
 .logo {
   position: relative;;
   width: 400px;
+  height: 155px;
   left: 400px;
   top: 30px;
+  padding-bottom: 30px;
+  opacity: 1.0;
+}
+
+.menu {
+  position: relative;
+  left: 500px;
+  top: 50px;
+
+  a:link, a:visited {
+    display: block;
+    text-decoration: none;
+    float: left;
+    width: 100px;
+
+  }
+
+  h1 {
+    color: $Silicon-Red;
+    font-size: 2em;
+    text-align: center;
+  }
 }
