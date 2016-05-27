@@ -1,6 +1,13 @@
 body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: $SanPro;
+  font-weight: 900;
+  color: $Silicon-Red;
 }
 
 .logo {
@@ -27,8 +34,8 @@ body {
   }
 
   h1 {
-    color: $Silicon-Red;
     font-size: 2em;
     text-align: center;
+    te
   }
 }
