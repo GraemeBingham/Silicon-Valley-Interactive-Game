@@ -10,6 +10,11 @@ h1 {
   color: $Silicon-Red;
 }
 
+p {
+  font-family: $SanPro;
+  color: White;
+}
+
 .logo {
   position: relative;;
   width: 400px;
@@ -22,20 +27,18 @@ h1 {
 
 .menu {
   position: relative;
-  left: 500px;
-  top: 50px;
+  left: 460px;
+  top: 80px;
 
   a:link, a:visited {
     display: block;
     text-decoration: none;
     float: left;
-    width: 100px;
-
+    width: 140px;
   }
 
   h1 {
     font-size: 2em;
     text-align: center;
-    te
   }
 }

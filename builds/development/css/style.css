@@ -78,6 +78,11 @@ h1 {
   color: #ff2221;
 }
 
+p {
+  font-family: "Source Sans Pro";
+  color: White;
+}
+
 .logo {
   position: relative;
   width: 400px;
@@ -90,14 +95,14 @@ h1 {
 
 .menu {
   position: relative;
-  left: 500px;
-  top: 50px;
+  left: 460px;
+  top: 80px;
 }
 .menu a:link, .menu a:visited {
   display: block;
   text-decoration: none;
   float: left;
-  width: 100px;
+  width: 140px;
 }
 .menu h1 {
   font-size: 2em;
