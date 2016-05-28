@@ -45,5 +45,5 @@ gulp.task('serve',['compass','haml'], function() {
     });
 
     gulp.watch('components/sass/*.scss', ['compass']);
-    gulp.watch('components/haml/*.haml', ['haml']);
+    gulp.watch('components/haml/*.haml', ['haml']).on('change', browserSync.reload);
 });
