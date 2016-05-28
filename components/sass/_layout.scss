@@ -24,6 +24,40 @@
 
 .next-btn {
   position: absolute;
+  display: inline-block;
   top: 620px;
   left: 1100px;
+  font-family: $SanPro;
+  font-weight: 900;
+  border-radius: 4px;
+  background-color: $White;
+  font-size: 1em;
+  border: 2px solid $Silicon-Red;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.next-btn span {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.next-btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -6px;
+  transition: 0.5s;
+}
+
+.next-btn:hover span {
+  padding-right: 11px;
+}
+
+.next-btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
