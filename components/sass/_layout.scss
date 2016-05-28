@@ -18,6 +18,12 @@
   width: 1176px;
   top: 595px;
   padding: 10px;
-  border: 2px solid;
-  background-color: $Silicon-Red;
+  border: 2px solid $Silicon-Red;
+  background-color: $White;
+}
+
+.next-btn {
+  position: absolute;
+  top: 620px;
+  left: 1100px;
 }

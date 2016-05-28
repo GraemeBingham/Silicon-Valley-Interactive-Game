@@ -77,8 +77,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 1176px;
   top: 595px;
   padding: 10px;
-  border: 2px solid;
-  background-color: #ff2221;
+  border: 2px solid #ff2221;
+  background-color: #ffffff;
+}
+
+.next-btn {
+  position: absolute;
+  top: 620px;
+  left: 1100px;
 }
 
 body {
@@ -95,7 +101,7 @@ h1 {
 
 p {
   font-family: "Source Sans Pro";
-  color: White;
+  color: #000000;
 }
 
 .logo {
