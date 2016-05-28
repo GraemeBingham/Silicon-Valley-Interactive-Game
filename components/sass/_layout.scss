@@ -7,3 +7,17 @@
   background-color: black;
   opacity: 1;
 }
+.stage {
+  position: relative;
+}
+
+.dialog {
+  position: absolute;
+  display: block;
+  height: 55px;
+  width: 1176px;
+  top: 595px;
+  padding: 10px;
+  border: 2px solid;
+  background-color: $Silicon-Red;
+}

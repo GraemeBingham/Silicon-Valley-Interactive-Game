@@ -66,6 +66,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   opacity: 1;
 }
 
+.stage {
+  position: relative;
+}
+
+.dialog {
+  position: absolute;
+  display: block;
+  height: 55px;
+  width: 1176px;
+  top: 595px;
+  padding: 10px;
+  border: 2px solid;
+  background-color: #ff2221;
+}
+
 body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
