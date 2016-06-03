@@ -69,6 +69,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .stage {
   position: relative;
+  box-shadow: 0px 0px 15px 5px rgba(255, 34, 33, 0.5);
+  height: 675px;
 }
 
 .dialog {
