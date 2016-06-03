@@ -122,6 +122,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 0;
 }
 
+.puzzle-peice {
+  position: absolute;
+  top: 126px;
+  left: 221px;
+}
+
 body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
