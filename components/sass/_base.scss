@@ -15,6 +15,12 @@ p {
   color: $Black;
 }
 
+video {
+  position: absolute;
+  top: 0px;
+  padding: 0px;
+}
+
 .logo {
   position: relative;;
   width: 400px;
