@@ -130,6 +130,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 221px;
 }
 
+.storypopup {
+  position: absolute;
+  width: 600px;
+  top: 350px;
+  left: 300px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
 body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
@@ -144,7 +153,7 @@ h1 {
 
 p {
   font-family: "Source Sans Pro";
-  color: #000000;
+  color: #ffffff;
 }
 
 video {
