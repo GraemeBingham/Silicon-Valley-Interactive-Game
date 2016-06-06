@@ -187,3 +187,7 @@ video {
   font-size: 2em;
   text-align: center;
 }
+
+.hidden {
+  display: none;
+}
