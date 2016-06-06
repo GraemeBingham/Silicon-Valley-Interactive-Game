@@ -23,6 +23,7 @@ $(document).ready(function(){
 
   $('#d5').click(function(){
     $('#d6').removeClass('hidden')
+    $('#next-btn-3').removeClass('hidden')
   });
 
   document.getElementById('next-btn-3').onclick = function() {
