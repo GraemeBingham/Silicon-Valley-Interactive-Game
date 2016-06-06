@@ -5,20 +5,20 @@
     %meta{:name => "author", :content => "Graeme Bingham"}
     %link{:type => "text/css", :rel => "stylesheet", :href => "css/style.css" }
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"}
-    %script{:src => "js/scripts.js"}
+    %script{:src => "js/scripts3.js"}
   %body
     %header
       .container
         .stage
           %img{:alt => "Richard working", :src => "images/richard-working.jpg", :width => "1200px"}
-          %p.dialog Colleague 1: Richard what have you been workin on?
-          %p.dialog Richard: Just a little music application
-          %p.dialog Colleague 2: What does it do?
-          %p.dialog Richard: It allows musicians to search a music database to allow them to find out if their music is infringing on someone else’s copy right. It’s pretty cool
-          %p.dialog Colleague 2: Oh really, why don’t you send it to us so we can have a look.
-          %p.dialog Richard: Sure I will send you the link.
-          %p.dialog Colleague 1: Yeah like we are going to be doing that, we have btter things to do wiht our time.
-          %button{:type => "button",:class => "next-btn"}
+          %p.dialog#d1 Colleague 1: Yeah like we are going to be doing that, we have btter things to do with our time.
+          %p.dialog#d2.hidden Richard: Sure I will send you the link.
+          %p.dialog#d3.hidden Colleague 2: Oh really, why don’t you send it to us so we can have a look.
+          %p.dialog#d4.hidden Richard: It allows musicians to search a music database to allow them to find out if their music is infringing on someone else’s copy right. It’s pretty cool
+          %p.dialog#d5.hidden Colleague 2: What does it do?
+          %p.dialog#d6.hidden Richard: Just a little music application
+          %p.dialog#d7.hidden Colleague 1: Richard what have you been workin on?
+          %button{:type => "button",:class => "next-btn", :id => "next-btn-3"}
             %span Next
     %footer
       %h2 Copyright Graeme Bingham
