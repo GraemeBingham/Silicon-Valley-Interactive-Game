@@ -5,12 +5,12 @@
     %meta{:name => "author", :content => "Graeme Bingham"}
     %link{:type => "text/css", :rel => "stylesheet", :href => "css/style.css" }
     %link{:type => "text/css", :rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" }
-    %script{:src => "js/scripts.js"}
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"}
+    %script{:type => "text/javascript" , :src => "js/scripts.js"}
   %body
     %header
       .container
-        .stage
+        .stage#home
           %img{:alt => "TV show Logo", :src => "images/Logo.png", :class => "logo"}
           %section.menu
             %a{href: ""}
