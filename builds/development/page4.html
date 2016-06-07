@@ -11,16 +11,16 @@
     <header>
       <div class='container'>
         <div class='stage'>
-          <video autoplay='' height='675' width='1200'>
+          <video autoplay='' height='675' id='video' width='1200'>
             <source src='images/SiliconValley-S01E01-s1.mp4' type='video/mp4'>
               <source src='movie.ogg' type='video/ogg'>
                 Your browser does not support the video tag.
               </source>
             </source>
           </video>
-          <p class='dialog'>This page is for the video</p>
+          <p class='dialog hidden' id='d1'>This page is for the video</p>
           <!-- /%p.dialog Help him finish the user interface -->
-          <button class='next-btn' type='button'>
+          <button class='next-btn hidden' id='next-btn-4' type='button'>
             <span>Next</span>
           </button>
         </div>
