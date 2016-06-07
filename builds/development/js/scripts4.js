@@ -5,4 +5,8 @@ $(document).ready(function(){
     $('#').fadeIn('slow').removeClass('hidden');
     $('#next-btn-4').removeClass('hidden')
   });
+
+  document.getElementById('next-btn-4').onclick = function() {
+    location.href = "page5.html";
+  };
 });
