@@ -142,6 +142,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ffffff;
 }
 
+.screen-img {
+  position: absolute;
+  width: 1200px;
+}
+
 body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
