@@ -5,17 +5,17 @@
     %meta{:name => "author", :content => "Graeme Bingham"}
     %link{:type => "text/css", :rel => "stylesheet", :href => "css/style.css" }
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"}
-    %script{:src => "js/scripts.js"}
+    %script{:src => "js/scripts5.js"}
   %body
     %header
       .container
         .stage
           %img{:alt => "Gavin and Jared", :src => "images/screen-five-1.png",:class => "screen-img", :id => "img-1", :width => "1200px"}
-          %img{:alt => "Gavin", :src => "images/screen-five-2.png", :class => "screen-img", :id => "img-2", :width => "1200px"}
-          %p.dialog Jarred: This algorithm has great potential, if we strip it away from the music application and turn it into a enterprise facing data compression app, its applications could be limitless
-          %p.dialog Gavin: Yes, that could be a very interesting opportunity for Hooli
+          %img{:alt => "Gavin", :src => "images/screen-five-2.png", :class => "screen-img hidden", :id => "img-2", :width => "1200px"}
+          %p.dialog#d1 Jarred: This algorithm has great potential, if we strip it away from the music application and turn it into a enterprise facing data compression app, its applications could be limitless
+          %p.dialog#d2.hidden Gavin: Yes, that could be a very interesting opportunity for Hooli
           //%p.dialog Help him finish the user interface
-          %button{:type => "button",:class => "next-btn"}
+          %button{:type => "button",:class => "next-btn hidden", :id => "next-btn-5"}
             %span Next
     %footer
       %h2 Copyright Graeme Bingham
