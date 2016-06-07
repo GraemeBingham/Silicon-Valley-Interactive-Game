@@ -1,0 +1,20 @@
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %title Silcon Valley interactive game
+    %meta{:name => "author", :content => "Graeme Bingham"}
+    %link{:type => "text/css", :rel => "stylesheet", :href => "css/style.css" }
+    %link{:type => "text/css", :rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" }
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"}
+    %script{:src => "js/scripts10.js"}
+  %body
+    %header
+      .container
+        .stage
+          %img{:alt => "Richard working", :src => "images/richard-working.jpg", :class => "screen-img", :id => "img-1", :width => "1200px"}
+          %p.dialog#d1 Richard is just finishing up with his music application Pied Pipper
+          %p.dialog#d2.hidden Help him finish the user interface
+          %button{:type => "button",:class => "next-btn",  :id => "next-btn-10"}
+            %span Next
+    %footer
+      %h2 Copyright Graeme Bingham
