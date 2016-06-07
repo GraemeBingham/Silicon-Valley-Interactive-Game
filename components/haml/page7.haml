@@ -5,20 +5,19 @@
     %meta{:name => "author", :content => "Graeme Bingham"}
     %link{:type => "text/css", :rel => "stylesheet", :href => "css/style.css" }
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"}
-    %script{:src => "js/scripts.js"}
+    %script{:src => "js/scripts7.js"}
   %body
     %header
       .container
         .stage
           %img{:alt => "Richard working", :src => "images/screen-seven-1.png", :class => "screen-img", :id => "img-1", :width => "1200px"}
-          %img{:alt => "Richard working", :src => "images/screen-seven-2.png", :class => "screen-img hidden", :id => "img-1", :width => "1200px"}
+          %img{:alt => "Richard working", :src => "images/screen-seven-2.png", :class => "screen-img hidden", :id => "img-2", :width => "1200px"}
 
           %p.dialog#d1 You make your way back to the incubator and you start to feel like you need to make a decision.
-          %p.dialog#d2.hidden Your two options are take the 10 million from Gavin Bellson and live out the rest of your days as a millionaire or go with Peter Gregory and get 200 hundred thousand and build the company the way you want it.
-          %button{:type => "button",:class => "next-btn hidden", :id => "gavin"}
-          %button{:type => "button",:class => "next-btn hidden", :id => "peter"}
-
-          %button{:type => "button",:class => "next-btn", :id => "next-btn-7"}
-            %span Next
+          %p.dialog#d2.hidden Your two options are take the 10 million from Gavin Belson and live out the rest of your days as a millionaire or go with Peter Gregory and get </br> 200 hundred thousand and build the company the way you want it.
+          %button{:type => "button",:class => "decison hidden", :id => "peter"}
+            Choose Peter Gregory
+          %button{:type => "button",:class => "decison hidden", :id => "gavin"}
+            Choose Gavin Belson
     %footer
       %h2 Copyright Graeme Bingham
